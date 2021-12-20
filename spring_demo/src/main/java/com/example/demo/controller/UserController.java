@@ -13,7 +13,6 @@ import com.example.demo.service.UserService;
 /**
  * ユーザー情報 Controller
  */
-@SpringBootApplication
 @Controller
 public class UserController {
   /**

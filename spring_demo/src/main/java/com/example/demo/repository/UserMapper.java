@@ -9,7 +9,7 @@ import com.example.demo.entity.User;
 public interface UserMapper {
     /**
      * ユーザー情報検索
-     * @param user 検索用リクエストデータ
+     * @param user ID
      * @return ユーザー情報
      */
     User search(UserSearchRequest user);
